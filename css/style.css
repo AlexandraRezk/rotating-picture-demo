@@ -1,0 +1,24 @@
+
+
+.image-holder{
+    position: relative;
+    margin: 0 auto;
+    width: 260px;
+    height: 260px;
+}
+
+.head-image,.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 260px;
+}
+
+.head-image{
+    z-index: 0;
+}
+
+.front{
+    z-index: 1;
+}
